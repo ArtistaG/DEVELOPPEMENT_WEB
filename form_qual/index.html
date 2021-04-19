@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/logo.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap" rel="stylesheet">
+    <title>Formulaire de contact</title>
+</head>
+<body onload="NotationSystem()">
+<header>
+    <img src="assets/img/logo.jpg" alt="image_logo" >
+</header>
+<main>
+    <div class="head1">
+        <h1>Vous, parents,</h1>
+        <br>
+        <h1>faites nous part de vos retours</h1>
+    </div>
+    <form  action="#" method="POST" class="">
+
+        <div id="first">
+            <div class="form2">
+                <input type="text" name="nom" placeholder="Nom* :" required>
+                <input type="text" name="firstname" placeholder="Prénom* : " required>
+            </div>
+            <div class="form3">
+                <input type="email" name="mail" placeholder="E-Mail* :" required>
+                <p>Etape 1/3</p>
+                <button onclick="delete1()">Suivant --></button>
+                
+            </div>
+
+        </div>
+        
+
+    
+
+    <div id="second" class="delete">
+        <h2> Bonjour Madame/Monsieur...</h2>
+        <br>
+        <h2 class="marginh2">Pourriez-vous nous renseigner la tranche d'âge de votre/vos enfant(s) ci-dessous : </h2>
+        <div class="container form7">
+            <ul class="ks-cboxtags">
+              <li><input type="checkbox" id="checkboxOne" value="Fluttershy"><label for="checkboxOne">Moins de 2 ans</label></li>
+              <li><input type="checkbox" id="checkboxTwo" value="Derpy Hooves"><label for="checkboxTwo">2-3 ans</label></li>
+              <li><input type="checkbox" id="checkboxThree" value="Princess Celestia"><label for="checkboxThree">4-5 ans</label></li>
+              <li><input type="checkbox" id="checkboxFour" value="Gusty"><label for="checkboxFour">6-7 ans</label></li>     
+              <li><input type="checkbox" id="checkboxFive" value="Medley"><label for="checkboxFive">8 ans et plus</label></li>
+            </ul>      
+          </div>
+          <p>Etape 2/3</p>
+          <button onclick="delete2()">Suivant --></button>
+        
+        
+
+    </div>
+
+    <div id="third"class="delete">
+        <h2> Dites nous tout ! (Avis, résistance du jouet etc...)</h2>
+        <div class="form4">
+            <textarea rows="15" cols="100" minlength="10" maxlength="30"  name="resume" placeholder="Ecrivez ici..." ></textarea>
+        </div>
+
+        <div class="etoile1">
+            <img id="Star1" src="assets/img/StarOut.svg" />
+            <img id="Star2" src="StarOut.gif" />
+            <img id="Star3" src="assets/img/StarOut.svg" />
+            <img id="Star4" src="StarOut.gif" />
+            <img id="Star5" src="assets/img/StarOut.svg" />
+        </div>
+        <p>Etape 3/3</p>
+        <button>Envoyez</button>
+
+    </form>
+
+
+</main>
+<footer>
+</footer>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
