@@ -1,0 +1,248 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+body{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    background-image: url(../img/fond\ copie.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+
+.film{
+    width: 400px;
+    height: 700px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(71, 65, 65);
+    margin-left: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: #fff 7px solid;
+    text-align: center;
+    
+}
+
+
+.img1{
+    width: 200px;
+    height: 350px;
+    border: white 1px solid;
+}
+
+.img1:hover{
+    transform: scale(1.03);
+    transition: all linear 500ms;
+}
+
+
+
+ h1{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 900;
+    font-size: 2.0em;
+    color: white;
+    text-align: center;
+}
+
+p{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+    font-size: 1.3em;
+    color: white;
+    padding: 20px 0px 20px 0px;
+    
+}
+
+.btn1{
+    position: fixed;
+    top: 4%;
+    left: 47%;
+    padding: 5px 10px;
+    font-size: 1.5em;
+    font-family: 'DotGothic16', sans-serif;
+    border: 1px transparent;
+    border-radius: 5px;
+    color: #774e90;
+    background-color: #ffdf00;
+
+}
+
+.btn1:hover{
+    transform: scale(1.1);
+    box-shadow: -2px -1px 36px -10px rgba(255, 255, 255, 0.75);
+    transition: all linear 200ms;
+}
+
+.btn2{
+    
+    padding: 5px 10px;
+    font-size: 1.3em;
+    font-family: 'DotGothic16', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px transparent;
+    border-radius: 5px;
+    color: #774e90;
+    background-color: #ffdf00;
+}
+
+.btn2:hover{
+    transform: scale(1.1);
+    box-shadow: -2px -1px 36px -10px rgba(255, 255, 255, 0.75);
+    transition: all linear 200ms;
+}
+
+.btn2:hover{
+    transform: scale(1.1);
+    box-shadow: -2px -1px 36px -10px rgba(255, 255, 255, 0.75);
+    transition: all linear 200ms;
+}
+
+a {
+    text-decoration: none;
+}
+
+div:nth-of-type(5){
+    float: left;
+}
+
+.row1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+}
+
+.row1 img{
+    text-align: right;
+    padding-right: 5px;
+    width: 25px;
+    height: 25px;
+    color: white;
+    
+}
+
+.row1 img:hover{
+    transform: rotate(180deg);
+    transition: all linear 500ms;
+}
+
+.none{
+    display: none;
+}
+
+.label-file{
+    cursor: pointer;
+    color: #00b1ca;
+    font-weight: bold;
+}
+
+span{
+    font-size: 1.6em;
+    width: 200px;
+    font-family: 'DotGothic16', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px transparent;
+    border-radius: 5px;
+    color: #774e90;
+    background-color: #ffdf00;
+    padding: 5px 10px;
+    
+}
+
+span:hover{
+    transform: scale(1.1);
+    box-shadow: -2px -1px 36px -10px rgba(255, 255, 255, 0.75);
+    transition: all linear 200ms;
+}
+
+span:nth-child(1){
+    margin-top: 20%;
+    margin-bottom: 5%;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    position: fixed;
+    top: 0%;
+    left: 95%;
+}
+
+.nav_toggle{
+    top: 0%!important;
+    left: 68%!important;
+}
+
+.logo_nav{
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+    padding-top: 2%;
+    cursor: pointer;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(128, 128, 128, 0.75);
+    width: 100%;
+    height: 1000px;
+    
+}
+
+.pos_back{
+    position: absolute;
+    top: 10%;
+    left: 6%;
+  }
+  
+header div:hover{
+    top: 10%;
+    left: 5.5%;
+    transition: all linear 200ms;
+  }
+
+  .back{
+    padding-right: 5px;
+    width: 60px;
+    height: 60px;
+    color: white;
+    
+  }
+
+  .h2_form_create{
+    position: absolute;
+    top: 35%;
+    left: 26%;
+    font-size: 2em;
+    color: white;
+    font-family: 'DotGothic16', sans-serif;
+
+}

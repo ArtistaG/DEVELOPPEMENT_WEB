@@ -1,0 +1,146 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+  width: 100%;
+  background-image: url(../img/fond\ copie.png);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+h1{
+  text-align: center;
+  font-family: 'DotGothic16', sans-serif;
+}
+
+form{
+  background-color: rgba(128, 128, 128, 0.6);
+  width: auto;
+  height: auto;
+  position: absolute; 
+  top: 50%; left: 50%; 
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+input{
+  width: 200px;
+  height: 30px;
+  border: 1px transparent;
+  border-radius: 5px; 
+}
+
+input[type='text']{
+  padding: 20px 10px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px ;
+}
+
+.container2{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+
+
+.row2{
+  
+  align-items: center;
+  justify-content: center;
+}
+
+.row1{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+button{
+  width: 100px;
+  padding: 10px;
+  background-color: #f5f5db;
+  border: transparent;
+  border-radius: 5px;
+}
+
+button:hover{
+  background-color: #e7e7cc;
+  transition: all linear 200ms;
+  border-radius: 10px;
+}
+
+.submit{
+  width: 200px;
+  text-align: center;
+}
+
+input::placeholder,button{
+  color: #000;
+  font-family: 'DotGothic16', sans-serif;
+  font-size: 1.1em;
+}
+
+.col1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  padding: 5px;
+  margin-bottom: 20px ;
+  border-radius: 5px;
+}
+
+label{
+  color: #000;
+  font-family: 'DotGothic16', sans-serif;
+  
+}
+
+header img{
+  padding-right: 5px;
+  width: 60px;
+  height: 60px;
+  color: white;
+  
+}
+
+header{
+  width: 100%;
+}
+
+header div{
+  position: absolute;
+  top: 10%;
+  left: 6%;
+}
+
+header div:hover{
+  top: 10%;
+  left: 5.5%;
+  transition: all linear 200ms;
+}
+
+input[type='date']{
+  border: #000 1px solid;
+}
