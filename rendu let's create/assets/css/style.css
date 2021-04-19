@@ -1,0 +1,237 @@
+    body{
+        background-image: url(../img/landscape-540115_1920.jpg);
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Epilogue";
+    src: url("/assets/font/Epilogue/static/Epilogue-Bold.ttf") format("ttf");
+   }
+
+/* mettre font H1 et p */
+
+    .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(16, 171, 116, 0.5);
+    box-shadow: -1px 0px 45px -5px rgba(0,0,0,0.75);
+
+}
+
+.container2 {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 190px;
+    height: 110px;
+}
+
+.logo:hover{
+    transform: scale(1.07);
+    transition: all linear 400ms;
+  }
+
+.logo1{
+    padding-left: 120px;
+}
+
+.logo2{
+    padding-right: 220px;
+    
+}
+
+.btn1{
+    padding: 13px 13px 13px 13px;
+    border: transparent;
+    border-radius: 5px ;  
+    font-size: 17px;
+    font-family: Helvetica; 
+    background-color: transparent;
+    border: 2px #10AB74 solid;
+    color: #fff;
+}
+
+
+
+.btn1:hover{
+    
+    background-color:rgba(16, 171, 116, 1);
+}
+
+.btn2{
+    padding: 15px 28px 15px 28px;
+    border: transparent;
+    border-radius: 5px ;  
+    font-size: 17px;
+    font-family: Helvetica; 
+    margin-left: 20px;
+    background-color: transparent;
+    color: #fff;
+    
+}
+
+.btn2:hover{
+    
+    background-color:rgba(16, 171, 116, 1);
+    
+}
+
+.btn3{
+    padding: 15px 28px 15px 28px;
+    border: transparent;
+    border-radius: 5px ;  
+    font-size: 17px;
+    font-family: Helvetica; 
+    margin-left: 20px;
+    background-color: #fff;
+    
+}
+
+.btn3:hover{
+    
+    background-color:#42ad4d;
+    border: transparent ridge;
+    padding: 12px 31px 12px 31px;
+    transition: all linear 300ms;
+    box-shadow: -1px 0px 65px -13px rgba(0,0,0,0.75);
+    
+}
+
+.rect1{
+    background-color: #10AB74;
+    width: 20%;
+    height: 80%;
+    
+}
+
+.txt1{
+    margin-top: 8%;
+    background-color: #10AB74;
+    width: 20%;
+    height: 40%;
+    padding: 60px 20px 60px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0px 2px 2px 0px;
+    font-family:Epilogue;
+    color: #fff;
+    margin-right: 20%;
+    box-shadow: 10px -1px 69px -23px rgba(0,0,0,0.75);
+}
+
+.txt1:hover{
+    width: 40%;
+    /* transform: scale(1.02); */
+    transition: all linear 500ms;;
+}
+
+h1{
+    font-family: Epilogue ;
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+}
+
+.txt2{
+    
+    font-size: 40px;
+    
+}
+
+.txt3{
+    
+    font-family: Epilogue ;
+    font-size: 1.5em;
+
+}
+
+.bg1{
+   height: 100%;
+   
+}
+
+.bg2:hover{
+    transform: scale(0.90);
+    transition: all linear 300ms;
+    box-shadow: 10px -1px 60px -4px rgba(0,0,0,0.75);
+}
+
+.bg2{
+    margin-top: 10%;
+    width: 450px;
+    height: 610px;
+    
+    
+}
+
+footer{
+    background-color: rgba(177, 206, 222, 1);
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.iconinsta{
+    width: 32px;
+    height: 32px ;
+  }
+  
+  .iconface{
+    width: 48px;
+    height: 48px ;
+  }
+  
+  .icontwitter{
+    width: 35px;
+    height: 32px ;
+  }
+
+.footer2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 20%;
+}
+
+.footer3{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo3{
+    width: 190px;
+    height: 110px;
+}
+
+.p1{
+    font-family: Epilogue;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.marg5{
+    margin-bottom: 80px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.p1:hover{
+    color: rgb(16, 171, 116);
+}

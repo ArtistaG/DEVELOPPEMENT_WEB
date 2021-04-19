@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content=""> 
+        <link rel="stylesheet" type="text/css" href="assets/css/registration.css">
+        <link href="https://fonts.googleapis.com/css2?family=Epilogue&display=swap" rel="stylesheet">
+        <title>MyProfile Registration 3/3</title>
+    </head>
+
+<body> 
+    <header>
+        <div class="nav">
+            <a href="index.html"><img class="logo" src="assets/img/Logo Entier.png"></img></a>
+        </div>
+
+    </header>
+    <main>
+        <section class="box container3 pulse switch1"> 
+    
+            <h1>Inscription</h1>
+            <p>Etape 1/3</p>
+            
+            
+            <form method="POST" action="#" >
+               
+               <div class="genfile container3">
+                <select autocomplete="on">
+                    <option value="option1">Homme</option>
+                    <option value="option2">Femme</option>
+                </select>
+    
+                <div class="np">
+                    <div class="container3">
+                        <label for="nom">Nom</label>
+                        <input type="text" name="nom" placeholder="Nom" required="required" autocomplete="on">
+                    </div>
+                   <div class="container3 marg1">
+                    <label for="prenom">Prénom</label>
+                    <input type="text" name="prenom" placeholder="Prénom" required="required" autocomplete="on">
+                   </div>
+                    
+                </div>
+                <div class="np">
+                    <div class="container3">
+                        <label for="date">Date de naissance</label>
+                        <input type="date" name="date" value="2003-01-01" min="1918-01-01" max="2003-01-01" placeholder="Date de naissance">
+                    </div>
+                    <div class="container3 marg1">
+                        <label for="email">Votre adresse mail</label>
+                        <input type="text" pattern=".+@exemple.com" name="email" placeholder="Email" required="required" maxlength="50" pattern="email">
+                    </div>
+                   
+                    
+                </div>
+    
+                
+                
+                </div>
+    
+                <div class="container3">
+                    <div class="tel container3">
+                        <label for="tel">Numéro de téléphone</label>
+                        <input type="tel" name="tel" placeholder="Numéro de Téléphone" required="required" maxlength="10">
+                        
+                </div>
+    
+                    <div class="container3 marg2">
+                        <label for="avatar"> Intégrez votre photo d'identité</label>
+                        <input class="file" type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+    
+                    
+                
+               </div> 
+    
+               
+                
+                
+                    
+                </div>
+                <div class="np container3">
+                    <input type="checkbox" name="CGU" id="CGU">
+                    <label for="Accord pour CGU">Acceptez vous les CGU du site</label>
+                </div>
+    
+                
+                
+    
+                <div class="container4">
+                    <a href=""><button onclick="etape1()" class="btn4" type="submit">Valider</button></a>
+                    <a href=""><button class="btn4" type="reset">Effacer</button></a>
+                </div>
+    
+    
+            </form>
+    
+    
+        </section>
+
+        <!-- etape2 -->
+
+        <section class="box container3 pulse switch2 switch4"> 
+
+            <h1>Inscription</h1>
+            <p>Etape 2/3</p>
+            
+            
+            <form method="POST" action="#" >
+               
+               <div class="genfile container3">
+                <select autocomplete="on" > 
+                    <option value="option1">Choisir statut...</option>
+                    <option value="option2">Salarié</option>
+                    <option value="option1">Gérant</option>
+                    <option value="option2">Indépendant</option>
+                    <option value="option2">recherche d'emploi</option>
+                    <option value="option2">Autre</option>
+                </select>
+    
+                <div class="np">
+                    <div class="container3">
+                        <label  for="Profession">Profession</label>
+                        <input class="resize3" type="text" name="Profession" placeholder="Votre Profession" required autocomplete="on">
+                    </div>
+                   <div class="container3 marg1">
+                    <label  for="hobbies">Hobbies</label>
+                    <select class="hob1" autocomplete="on" > 
+                        <option value="option1">Votre Hobby...</option>
+                        <optgroup label="Technologies">
+                            <option value="option2">Jeux Vidéos</option>
+                            <option value="option1">Streaming</option>
+                            <option value="option1">Domotique</option>
+                        </optgroup>
+                        <optgroup label="Sport">
+                            <option value="option1">Sport Extrêmes</option>
+                        <option value="option2">Sports en Equipe</option>
+                        <option value="option1">Sport Individuels</option>
+                        </optgroup>
+                        <optgroup label="Artistique">
+                            <option value="option1">Théâtre</option>
+                        <option value="option2">Danse</option>
+                        <option value="option1">Chant</option>
+                        </optgroup>
+                    </select>
+                   </div>
+                    
+                </div>
+                <div class="np">
+                    <div class="resize1">
+                        <label for="area">Biographie</label>
+                        <textarea  class="hob1" placeholder="Qui êtes vous ?" name="area" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    
+                   
+                    
+                </div>
+    
+                
+                
+                </div>
+    
+                <div class="container4">
+                    <a href=""><button onclick="etape2()" class="btn4" type="submit">Valider</button></a>
+                    <a href=""><button class="btn4" type="reset">Effacer</button></a>
+                </div>
+    
+    
+            </form>
+    
+    
+        </section>
+
+        <!-- etape 3 -->
+
+        <section class="box container3 pulse switch2 switch5"> 
+
+            <h1>Paiement</h1>
+            <p>Etape 3/3</p>
+            
+            <form method="POST" class="" action="comingsoon.html" >
+               
+               <div class="genfile container3 ">
+                <label class="lab1" for="Choix du type de carte">Choix du type de carte*</label>
+                <select autocomplete="on" required="required">
+                    <option value="option1"></option>
+                    <option value="option2">CB</option>
+                    <option value="option3">Visa</option>
+                    <option value="option4">Mastercard</option>
+                </select>
+    
+                <div class="np">
+                    <div class="container3">
+                        <label for="nom">Nom</label>
+                        <input type="text" name="nom" placeholder="Nom" required="required" autocomplete="on">
+                    </div>
+                   <div class="container3 marg1">
+                    <label for="prenom">Prénom</label>
+                    <input type="text" name="prenom" placeholder="Prénom" required="required" autocomplete="on">
+                   </div>
+                    
+                </div>
+                <div class="np">
+                    <div class="container3 marg1">
+                        <label for="email">Numéro de carte bancaire* (16 Chiffres)</label>
+                        <input class="numcb" type="number"  name="" placeholder="Numéro de carte bancaire" required >
+                    </div>
+                </div>               
+                </div>
+                <div class="np">
+                    <div class="container3">
+                        <label for="Date d'expiration">Date d'expiration</label>
+                        <input type="month" name="Date d'expiration" value="2020-04-01" max="2020-04-01" required autocomplete="on">
+                    </div>
+                   <div class="container3 marg1">
+                    <label for="Cryptogramme">Cryptogramme</label>
+                    <input type="text" maxlength="3" minlength="3" name="Cryptogramme" placeholder="3 chiffres" required="required" autocomplete="on">
+                   </div>
+                </div>
+                
+                
+    
+                <div class="container4">
+                    <button class="btn4" type="submit">Valider</button>
+                    <a href=""><button class="btn4" type="reset">Effacer</button></a>
+                </div>
+            </div>
+    
+            </form>
+    
+    
+        </section>
+
+
+    
+    </main>
+
+    <footer class="footer">
+        
+        <div>
+            <img src="assets/img/Plan de travail 1.png" class="logo3" alt="">
+        </div>
+        <div class="footer2">
+            <img class="iconface" src="assets/img/facebook.png" alt="">
+            <img class="iconinsta" src="assets/img/insta.png" alt="">
+            <img class="icontwitter" src="assets/img/twitter.png" alt="">
+        </div>
+        <div class="footer3">
+            <a href="#"><p class="p1">S'inscrire</p></a> 
+            <a href="#"><p class="p1">A propos</p></a>
+            <a href="#"><p class="p1">Clauses de confidentialités</p></a>
+            <a href="#"><p class="p1">Politique de confidentialités</p></a>
+            
+        </div>
+   
+    
+</footer>
+
+    <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
