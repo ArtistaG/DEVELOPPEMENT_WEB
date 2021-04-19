@@ -1,0 +1,194 @@
+* {
+	box-sizing:border-box;
+	margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    overflow: hidden;
+}
+
+ul{
+    width: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3em;
+    color: #000;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+span.btn a{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5em;
+    color: #59376f;
+}
+
+span.btn:hover a{
+    color: #e3b43b;
+}
+
+h2{
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5em;
+    color: #000;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.3em;
+}
+
+header{
+    background-color: #0296f8;
+    width: 100%;
+    position: fixed;
+}
+
+
+header ul li{
+    float: left;
+    transform: scale(1);
+    padding: 5px;
+    margin-right: 20px;
+}
+
+header ul li:hover{
+    float: left;
+    transform: scale(1.1);
+    transition: all linear 500ms;
+    background-color: #000;
+    color: #0296f8;
+    box-shadow: -1px 0px 57px 5px rgba(0,0,0,0.75);
+}
+
+header nav  {
+   display: flex;
+   flex-direction: row;
+}
+
+
+nav{
+    width: 100%;
+    padding: 9px 0px 9px 9px;
+    
+}
+
+main{
+    width: 100%;
+    height: 1000px;
+    margin: auto;
+    padding: 100px;
+    background-size: initial;
+    background-repeat: no-repeat;
+    background-image: url(../img/page\ de\ garde.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clear {
+    clear: both;
+}
+
+header nav img {
+    width: 200px;
+    height: 50px;
+}
+
+header nav div.logo {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+}
+
+
+header span.btn1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1);
+    font-family: 'Roboto Slab', serif;
+    background-color: #e3b43b;
+    font-size: 1.6em;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: -1px 0px 57px 5px rgba(0,0,0,0.75);
+}
+
+header span.btn1:hover{
+    transform: scale(1.1);
+    background-color: #59376f;
+    transition: all linear 500ms;
+}
+
+.btn{
+    width: 200px;
+    height: 80px;
+    background-color: #e3b43b;
+    color: #59376f;
+    padding: 10px;
+    transform: scale(1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 35px;
+}
+
+.btn:hover{
+    background-color: #59376f;
+    color: #e3b43b;
+    transform: scale(1.1);
+    transition: all linear 500ms;
+}
+
+
+header span a {
+    color:#59376f;
+    background-color: #e3b43b;
+
+}
+
+header span a:hover {
+    color: #e3b43b;
+    background-color: #59376f;
+}
+
+.contenu1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 400px;
+    flex-direction: column;
+    background-color: rgba(2, 150, 248, 0.75);
+    box-shadow: -4px 0px 42px 0px rgba(2, 150, 248, 0.75);
+    border-radius: 5px;
+
+}
+
+.contenu1:hover{
+    transform: scale(1.1);
+    transition: all linear 300ms;
+}
+
+main section h1 span{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}

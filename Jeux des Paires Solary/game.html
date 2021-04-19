@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Russo+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/game.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JEU DE CARTE</title>
+</head>
+<body>
+	<!-- FLECHE RETOUR -->
+	<a href="index.html"><img src="assets/img/fleche.png" class="fleche" alt=""></a>
+	<!-- BANDE SON -->
+	<audio class="music1" autoplay loop>
+		<source src="assets/media/musique/sonic-the-hedgehog-ost-green-hill-zone.mp3" type="audio/mp3">
+	 </audio>
+	
+	<!-- ECRAN DE VICTOIRE -->
+	<div id="victory" class="victory-screen">
+		<h2>Gagné ! </h2>
+		<a href="game.html" class="btn ">rejouer ?</a>
+
+		
+		
+	</div>
+	<!-- ENTETE DU JEU -->
+
+	<header class="gameInfos">
+        <section>
+			<div class="resize">
+				<a href="index.html"><img src="assets/img/logo black.png" alt=""></a>
+			</div>
+			
+            <h1>Jeu des paires</h1>
+            <div class="flex">
+            <!-- NOMBRE DE COUPS -->
+            <div class="game-info float">
+                <p>Nombre de coup : <span id="flip-count">0</span></p>
+            </div>
+            <!-- NOMBRE DE PAIRE(S) TROUVEES(S) -->
+            <div class="game-info">
+                <p>Nombre de paires trouvée(s) : <span id="victory-count">0</span>/6</p>
+			</div>
+			<div>
+				<p>Time : <span id="timer">60</span></p>
+			</div>
+            </div>
+        </section>
+	
+	</header>
+
+	<!-- SCENE DU JEU -->
+	<section class="game-scene">
+		<!-- CARTE 1 -->
+		<div class="game-card" onclick="flipAudio('assets/media/musique/piece.wav')" data-cardname="magl">
+			<img src="assets/img/carte Magl.png" alt="légende de l'image" class="front-face">
+			<img src="assets/img/VERSO carte solary version noir.png" alt="légende de l'image" class="back-face">
+		</div>
+		<!-- CARTE 2 -->
+		<div class="game-card" onclick="flipAudio('assets/media/musique/piece.wav')" data-cardname="magl">
+			<img src="assets/img/carte Magl.png" alt="légende de l'image" class="front-face">
+			<img src="assets/img/VERSO carte solary version noir.png" alt="légende de l'image" class="back-face">
+		</div>
+		<!-- CARTE 3 -->
+		<div class="game-card" onclick="flipAudio('assets/media/musique/piece.wav')" data-cardname="twiks">
+			<img src="assets/img/carte twiks.png" alt="légende de l'image" class="front-face">
+			<img src="assets/img/VERSO carte solary version noir.png" alt="légende de l'image" class="back-face">
+		</div>
+		<!-- CARTE 4 -->
+		<div class="game-card" onclick="flipAudio('assets/media/musique/piece.wav')" data-cardname="twiks">
+			<img src="assets/img/carte twiks.png" alt="légende de l'image" class="front-face">
+			<img src="assets/img/VERSO carte solary version noir.png" alt="légende de l'image" class="back-face">
+		</div>
+		<!-- CARTE 5 -->
+		<div class="game-card" onclick="flipAudio('assets/media/musique/piece.wav')" data-cardname="yoshi">
+			<img src="assets/img/carte yoshi.png" alt="légende de l'image" class="front-face">
+			<img src="assets/img/VERSO carte solary version noir.png" alt="légende de l'image" class="back-face">
+		</div>
+		<!-- CARTE 6 -->
+		<div class="game-card" onclick="flipAudio('assets/media/musique/piece.wav')" data-cardname="yoshi">
+			<img src="assets/img/carte yoshi.png" alt="légende de l'image" class="front-face">
+			<img src="assets/img/VERSO carte solary version noir.png" alt="légende de l'image" class="back-face">
+		</div>
+		<!-- CARTE 7 -->
+		<div class="game-card" onclick="flipAudio('assets/media/musique/piece.wav')" data-cardname="floki">
+			<img src="assets/img/carte floki.png" alt="légende de l'image" class="front-face">
+			<img src="assets/img/VERSO carte solary version noir.png" alt="légende de l'image" class="back-face">
+		</div>
+		<!-- CARTE 8 -->
+		<div class="game-card" onclick="flipAudio('assets/media/musique/piece.wav')" data-cardname="floki">
+			<img src="assets/img/carte floki.png" alt="légende de l'image" class="front-face">
+			<img src="assets/img/VERSO carte solary version noir.png" alt="légende de l'image" class="back-face">
+		</div>
+		<!-- CARTE 9 -->
+		<div class="game-card" onclick="flipAudio('assets/media/musique/piece.wav')" data-cardname="papass">
+			<img src="assets/img/carte papass.png" alt="légende de l'image" class="front-face">
+			<img src="assets/img/VERSO carte solary version noir.png" alt="légende de l'image" class="back-face">
+		</div>
+		<!-- CARTE 10 -->
+		<div class="game-card" onclick="flipAudio('assets/media/musique/piece.wav')" data-cardname="papass">
+			<img src="assets/img/carte papass.png" alt="légende de l'image" class="front-face">
+			<img src="assets/img/VERSO carte solary version noir.png" alt="légende de l'image" class="back-face">
+		</div>
+		<!-- CARTE 11 -->
+		<div class="game-card" onclick="flipAudio('assets/media/musique/piece.wav')" data-cardname="emxxrr">
+			<img src="assets/img/carte emxxrr.png" alt="légende de l'image" class="front-face">
+			<img src="assets/img/VERSO carte solary version noir.png" alt="légende de l'image" class="back-face">
+		</div>
+		<!-- CARTE 12 -->
+		<div class="game-card" onclick="flipAudio('assets/media/musique/piece.wav')" data-cardname="emxxrr">
+			<img src="assets/img/carte emxxrr.png" alt="légende de l'image" class="front-face">
+			<img src="assets/img/VERSO carte solary version noir.png" alt="légende de l'image" class="back-face">
+		</div>
+	</section>
+
+
+
+	<!-- CHARGEMENT JS SCRIPT -->
+	<script src="assets/js/game.js"></script>
+</body>
+</html>
